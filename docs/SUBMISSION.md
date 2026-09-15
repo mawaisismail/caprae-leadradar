@@ -1,27 +1,22 @@
-# Submission pack — Full Stack Developer, Caprae Capital
+# Submission pack: Full Stack Developer, Caprae Capital
 
 Email to: **recruiting@capraecapital.com**
 Subject: **`Full Stack Developer - Handbook Submission - {Your Name}`**
-Attach: resume (PDF), GitHub repo link, video link (Loom/YouTube unlisted), optional live demo link.
+Include:
+- Your resume (PDF)
+- GitHub repo: https://github.com/mawaisismail/caprae-leadradar
+- Video link (Loom, or YouTube unlisted)
+- Optional: a live demo link
 
 ---
 
-## 1. Two-minute video script (≈260 words)
+## 1. Video walkthrough
 
-| Time | Show on screen | Say |
-|---|---|---|
-| 0:00–0:15 | SaaSquatch demo: Company Finder table full of N/A, then the email generator asking for 3×20-word context | "SaaSquatch is great at producing lists, but I watched the product demo frame by frame, and the user is still left with three questions: who do I call first, why now, and what do I say?" |
-| 0:15–0:35 | LeadRadar empty state, click **HVAC in Austin** | "So I built LeadRadar, a quality-first layer on top of SaaSquatch. It discovers real businesses from OpenStreetMap in about two seconds, or imports a SaaSquatch CSV with the columns auto-mapped." |
-| 0:35–0:55 | Rows streaming in and the progress bar | "Every lead is enriched automatically. We politely crawl the website, respecting robots.txt, and pull founding year, owners, tech stack and emails, which we MX-verify. Duplicates across sources are merged, and bot-protected sites are flagged, not bypassed." |
-| 0:55–1:20 | Ranked table, open the top lead, "Why it ranks" | "Then we rank. Because SaaSquatch serves acquisition entrepreneurs, there's an acquisition lens: succession pressure, AI value-creation upside, owner reachability, buy-box fit. Every point is backed by a quote. Here: fifty years in business, family-owned, CEO named. Chains are detected and pushed down." |
-| 1:20–1:40 | Outreach tab: Generate, then Open in mail app | "Outreach needs zero manual context. It's written from those verified signals: email, call opener, LinkedIn note, follow-ups. One click opens your mail app and logs the touch in the pipeline." |
-| 1:40–2:00 | Export menu (HubSpot / brief), then the README architecture diagram | "Exports go straight into HubSpot or Salesforce, or a shareable brief. Under the hood: Next.js 16 and TypeScript, streaming serverless APIs, libSQL on Turso with a two-tier cache, and Claude for drafts, deployable to Vercel. Thirty-nine tests. Thanks for watching." |
-
-Recording tips: 1440×900 window, browser zoom 110 %, pre-warm the cache by running the Austin search once so the demo is fast, turn on "Businesses to buy", and set your name in "About you".
+The full recording guide lives in **[`docs/VIDEO_SCRIPT.md`](VIDEO_SCRIPT.md)**: setup, a timed 2-minute script with exactly what to click and say, a stack cheat sheet, and roadmap talking points.
 
 ---
 
-## 2. Business understanding — drafts to personalise
+## 2. Business understanding: drafts to personalise
 
 > These drafts are grounded in Caprae's own public material. **Rewrite them in your own voice and add your personal story.** Reviewers screen for authenticity.
 
@@ -38,7 +33,7 @@ Traditional private equity often relies on leverage and multiple expansion. Trad
 
 It is also lowering the cost of entry for acquisition entrepreneurs. SaaSquatch gives searchers, students and operators affordable sourcing that used to require expensive data stacks. Its public writing on governance, searcher-CEO termination issues and culture (#BleedandBuild) pushes the industry toward more transparency and better alignment between investors and operators.
 
-### Short answers — **you must fill these in yourself**
+### Short answers: **you must fill these in yourself**
 - Current US working status: ____
 - Willing and able to work 40+ hours/week: ____
 - Why Caprae Capital (one line): ____
